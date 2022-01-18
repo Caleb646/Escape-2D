@@ -3,6 +3,7 @@ package gamePackage;
 public class Driver {
 
     public static void main(String[] args) {
-        new GameView("Escape-2D", 800, 600);
+        //TODO fix resolution issues
+        new GameView("Escape-2D", 1920, 1080);
     }
 }
